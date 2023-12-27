@@ -13,8 +13,23 @@ def guess(num: int) -> int:
         return 0
 
 class Solution:
-
     def guessNumber(self, n: int) -> int:
+        min = 1
+        max = n
+
+        average = (min+max)//2
+
+        while guess(average) != 0:
+            if guess(average) == 1:
+                min = average + 1
+                
+            if guess(average) == -1:
+                max = average -1            
+            average = (min+max)//2
+        return average
+
+
+print(Solution.guessNumber(Solution,10))
         
 
         
