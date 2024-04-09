@@ -16,8 +16,9 @@ public class Solution {
         }
         // After total we calculate the number of intersections
         int totalIntersections = 0;
-        for (int i = 0; i < startArray.length; i++) {
-            long endPos = i + A[i];
+        for (long i = 0; i < startArray.length; i++) {
+            long radius = A[(int) i];
+            long endPos = i + radius;
             if(endPos > startArray.length - 1){
                 endPos = startArray.length-1;
             }
