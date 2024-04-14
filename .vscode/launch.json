@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "SemiPrimes.Solution",
+            "projectName": "ProgrammingQuestions_7af0cb7"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "NonDivisor.Solution",
+            "projectName": "ProgrammingQuestions_7af0cb7"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Peak.Solution",
+            "projectName": "ProgrammingQuestions_7af0cb7"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"

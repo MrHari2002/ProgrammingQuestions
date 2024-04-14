@@ -28,6 +28,9 @@ public class Solution{
             int endFlag = peaks.get(endIndex);
             int flagsPlaced = 2;
             while(startIndex<endIndex){
+                if(flagsPlaced == flags){
+                    return flags;
+                }
                 startIndex++;
                 endIndex--;
                 if(peaks.get(startIndex)>=startFlag + flags){
@@ -50,6 +53,9 @@ public class Solution{
         return 0;
     }
     public static void main(String[] args) {
-        System.out.println(new Solution().solution(new int[]{1,5,3,4,3,4,1,2,3,4,6,2}));
+//      System.out.println(new Solution().solution(new int[]{1,5,3,4,3,4,1,2,3,4,6,2}));
+
+        System.out.println(new Solution().solution(new int[]{1,2,1,2,1,2,1}));
+
     }
 }
