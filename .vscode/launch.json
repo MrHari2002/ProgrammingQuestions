@@ -8,6 +8,27 @@
             "type": "java",
             "name": "Solution",
             "request": "launch",
+            "mainClass": "NumberSolitaire.Solution",
+            "projectName": "ProgrammingQuestions_7af0cb7"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "MaxNonoverlappingSegments.Solution",
+            "projectName": "ProgrammingQuestions_7af0cb7"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "MinMaxDivision.Solution",
+            "projectName": "ProgrammingQuestions_7af0cb7"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
             "mainClass": "Ladder.Solution",
             "projectName": "ProgrammingQuestions_7af0cb7"
         },
