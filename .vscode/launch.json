@@ -6,9 +6,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Solution",
+            "name": "NewQuestion",
             "request": "launch",
-            "mainClass": "NewQuestion.Solution"
+            "mainClass": "OddOccurrencesInArray.NewQuestion",
+            "projectName": "ProgrammingQuestions_7af0cb7"
         },
         {
             "type": "java",
