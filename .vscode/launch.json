@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Leetcode.Leetcode1657IfTwoStringAreEqual.Solution",
+            "projectName": "ProgrammingQuestions_7af0cb7"
+        },
+        {
+            "type": "java",
             "name": "MergeSort",
             "request": "launch",
             "mainClass": "Sorting.MergeSort",
