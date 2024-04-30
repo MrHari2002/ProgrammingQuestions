@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Solution",
             "request": "launch",
+            "mainClass": "Leetcode.equalrowandcolumnpairs.Solution",
+            "projectName": "ProgrammingQuestions_7af0cb7"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
             "mainClass": "Leetcode.Leetcode1657IfTwoStringAreEqual.Solution",
             "projectName": "ProgrammingQuestions_7af0cb7"
         },
