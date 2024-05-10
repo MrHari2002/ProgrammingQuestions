@@ -8,6 +8,27 @@
             "type": "java",
             "name": "Solution",
             "request": "launch",
+            "mainClass": "Leetcode.DecodeString.Solution",
+            "projectName": "ProgrammingQuestions_7af0cb7"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Leetcode.AsteroidCollision.Solution",
+            "projectName": "ProgrammingQuestions_7af0cb7"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Leetcode.removingStarsFromAString.Solution",
+            "projectName": "ProgrammingQuestions_7af0cb7"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
             "mainClass": "Leetcode.equalrowandcolumnpairs.Solution",
             "projectName": "ProgrammingQuestions_7af0cb7"
         },
