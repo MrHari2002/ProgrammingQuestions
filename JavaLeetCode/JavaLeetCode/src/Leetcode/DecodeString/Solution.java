@@ -3,60 +3,48 @@ package Leetcode.DecodeString;
 import java.util.Stack;
 
 public class Solution {
-    public String decodeString(String s) {
+
+    public String decodeString(String s){
         char[] charArray = s.toCharArray();
-        Stack<Integer> intStack = new Stack<>();
-        String curString = "";
-        Stack<String> stringStack = new Stack<>(); 
-        StringBuilder sb = new StringBuilder();
-        int counter = 0;
-        boolean addMode = false;
-
-        while(counter<charArray.length){
-
-
-            Character c = charArray[counter];
-            if(Character.isDigit(c)){
-                Integer cInt = c - '0';
-                intStack.push(cInt);
-                counter++;
+        Stack<Character> charStacks = new Stack<>();
+        for(Character c:charArray){
+            // if c != "]"
+            if(c!=93){
+                charStacks.add(c);
             }
+            else{
+                String subString = "";
+                //if c! = "["
+                while(charStacks.peek()!=91){
+                    subString = charStacks.pop()+subString;
+                }
+                charStacks.pop();
+                String k = "";
+                while(!charStacks.isEmpty() && Character.isDigit(charStacks.peek())){
+                    k = charStacks.pop() +k;
+                }
+                
+                int numberOfTimes = Integer.parseInt(k);
 
-            else if(c == 91){
-                addMode = true;
-                counter++;
-            }
-
-            else if(c == 93){
-                if(!intStack.isEmpty()){
-                    int popped = intStack.pop();
-                    String stackNow = stringStack.pop();
-                    for(int i = 0;i<popped;i++){
-                        sb.append(stackNow);
+                for(int i = 0; i< numberOfTimes;i++){
+                    for(Character b :subString.toCharArray()){
+                        charStacks.add(b);
                     }
                 }
-                curString = "";
-                stringStack.push(curString);
-                counter++;
-                addMode = false;
+
             }
-
-            else if(addMode){
-                curString += c.toString();
-                counter++;
-            }
-
-
-
-
-
         }
-        return sb.toString();
+
+        String answer = "";
+        while(!charStacks.isEmpty()){
+            answer = charStacks.pop()+answer;
+        }
+        return answer;
     }
     public static void main(String[] args) {
-        String test1 = "3[a]2[bc]";
-        String test2 = "3[a2[c]]";
         Solution s1 = new Solution();
-        System.out.println(s1.decodeString(test2));
+        String answer = s1.decodeString("100[leetcode]");
+        System.out.println(answer);
     }
+    
 }
