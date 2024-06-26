@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Solution",
             "request": "launch",
+            "mainClass": "Leetcode.LinkedList.DeletedTheMiddleNode.Solution",
+            "projectName": "ProgrammingQuestions_7af0cb7"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Leetcode.DotaSenate.Solution",
+            "projectName": "ProgrammingQuestions_7af0cb7"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
             "mainClass": "Leetcode.DecodeString.Solution",
             "projectName": "ProgrammingQuestions_7af0cb7"
         },

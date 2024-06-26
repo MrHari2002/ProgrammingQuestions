@@ -30,7 +30,6 @@ public class Solution {
         return counter;
     }
     public static void main(String[] args) {
-        int[][] grid = new int[][]{{3,2,1},{1,7,6},{2,7,7}};
         int[][] newGrid = new int[][]{{3,1,2,2},{1,4,4,5},{2,4,2,2},{2,4,2,2}};
         
         Solution s1 = new Solution();
