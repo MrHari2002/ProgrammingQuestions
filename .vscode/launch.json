@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Solution",
             "request": "launch",
+            "mainClass": "Leetcode.LinkedList.OddEvenLinkedList.Solution",
+            "projectName": "ProgrammingQuestions_7af0cb7"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
             "mainClass": "Leetcode.LinkedList.DeletedTheMiddleNode.Solution",
             "projectName": "ProgrammingQuestions_7af0cb7"
         },
