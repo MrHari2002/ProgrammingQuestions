@@ -36,54 +36,30 @@ public class TreeUtil {
 
     // Print the tree structure in a more visual format
     public static void printTree(TreeNode root) {
-        if (root == null) {
-            System.out.println("Tree is empty");
-            return;
-        }
-
-        int height = getHeight(root);
-        int maxWidth = (int) Math.pow(2, height) - 1;
-
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
-
-        int level = 0;
-        while (level < height) {
-            int levelNodes = (int) Math.pow(2, level);
-            int spaces = (maxWidth - levelNodes) / (levelNodes + 1);
-            int betweenSpaces = spaces * 2 + 1;
-
-            // Initial spaces before the first node
-            for (int i = 0; i < spaces; i++) {
-                System.out.print(" ");
+        int h = getHeight(root);
+        int col = getColumn(h);
+        int[][] M = new int[h][col];
+        printTree(M, root, col / 2, 0, h);
+        for (int i = 0; i < h; i++) {
+            for (int j = 0; j < col; j++) {
+                if (M[i][j] == 0)
+                    System.out.print("  ");
+                else
+                    System.out.print(M[i][j] + " ");
             }
-
-            for (int i = 0; i < levelNodes; i++) {
-                if (queue.isEmpty()) {
-                    break;
-                }
-
-                TreeNode current = queue.poll();
-                if (current != null) {
-                    System.out.print(current.val);
-                    queue.add(current.left);
-                    queue.add(current.right);
-                } else {
-                    System.out.print(" ");
-                    queue.add(null);
-                    queue.add(null);
-                }
-
-                // Spaces between nodes
-                for (int j = 0; j < betweenSpaces; j++) {
-                    System.out.print(" ");
-                }
-            }
-
             System.out.println();
-            level++;
         }
+        
     }
+
+    public static void printTree(int[][] M, TreeNode root, int col, int row, int height) {
+        if (root == null)
+            return;
+        M[row][col] = root.val;
+        printTree(M, root.left, col - (int)Math.pow(2, height - 2), row + 1, height - 1);
+        printTree(M, root.right, col + (int)Math.pow(2, height - 2), row + 1, height - 1);
+    }
+    
 
     // Helper method to get the height of the tree
     private static int getHeight(TreeNode root) {
@@ -96,4 +72,12 @@ public class TreeUtil {
 
         return Math.max(leftHeight, rightHeight) + 1;
     }
+
+    // Helper method to get the Column of the tree
+    private static int getColumn(int h) {
+        if (h == 1)
+            return 1;
+        return getColumn(h - 1) + getColumn(h - 1) + 1;
+    }
+
 }
