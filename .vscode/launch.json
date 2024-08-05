@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Solution",
             "request": "launch",
+            "mainClass": "Leetcode.BinaryTree.BinaryTreeRightSideView.Solution",
+            "projectName": "ProgrammingQuestions_7af0cb7"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
             "mainClass": "Leetcode.BinaryTree.LowestCommonAncestorOfaBinaryTree.Solution",
             "projectName": "ProgrammingQuestions_7af0cb7"
         },
