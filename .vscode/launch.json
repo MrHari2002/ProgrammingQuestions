@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Solution",
             "request": "launch",
+            "mainClass": "Leetcode.KeysAndRooms.Solution",
+            "projectName": "ProgrammingQuestions_7af0cb7"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
             "mainClass": "Leetcode.BinaryTree.DeleteNodeInBST.Solution",
             "projectName": "ProgrammingQuestions_7af0cb7"
         },
