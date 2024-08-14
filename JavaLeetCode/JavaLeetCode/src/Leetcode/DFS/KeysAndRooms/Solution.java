@@ -1,4 +1,4 @@
-package Leetcode.KeysAndRooms;
+package Leetcode.DFS.KeysAndRooms;
 
 import java.util.ArrayList;
 import java.util.Arrays;
