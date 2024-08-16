@@ -1,216 +1,223 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Leetcode.DFS.ReorderRoutes.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Leetcode.DFS.NumProvinces.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Leetcode.KeysAndRooms.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Leetcode.BinaryTree.DeleteNodeInBST.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Leetcode.BinaryTree.MaxiumLevelSum.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Leetcode.BinaryTree.BinaryTreeRightSideView.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Leetcode.BinaryTree.LowestCommonAncestorOfaBinaryTree.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Leetcode.BinaryTree.LongestZigZag.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Leetcode.LinkedList.MaximumTwinSum.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Leetcode.LinkedList.OddEvenLinkedList.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Leetcode.LinkedList.DeletedTheMiddleNode.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Leetcode.DotaSenate.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Leetcode.DecodeString.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Leetcode.AsteroidCollision.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Leetcode.removingStarsFromAString.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Leetcode.equalrowandcolumnpairs.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Leetcode.Leetcode1657IfTwoStringAreEqual.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "MergeSort",
-            "request": "launch",
-            "mainClass": "Sorting.MergeSort",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "NewQuestion",
-            "request": "launch",
-            "mainClass": "OddOccurrencesInArray.NewQuestion",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "NumberSolitaire.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "MaxNonoverlappingSegments.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "MinMaxDivision.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Ladder.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "AllPrime.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Chocolate.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "SemiPrimes.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "NonDivisor.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Solution",
-            "request": "launch",
-            "mainClass": "Peak.Solution",
-            "projectName": "ProgrammingQuestions_7af0cb7"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch) - Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-Solution",
-            "request": "launch",
-            "mainClass": "Fish.Solution"
-        }
-    ]
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.DFS.ReorderRoutes.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.DFS.NumProvinces.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.KeysAndRooms.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.BinaryTree.DeleteNodeInBST.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.BinaryTree.MaxiumLevelSum.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.BinaryTree.BinaryTreeRightSideView.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.BinaryTree.LowestCommonAncestorOfaBinaryTree.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.BinaryTree.LongestZigZag.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.LinkedList.MaximumTwinSum.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.LinkedList.OddEvenLinkedList.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.LinkedList.DeletedTheMiddleNode.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.DotaSenate.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.DecodeString.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.AsteroidCollision.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.removingStarsFromAString.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.equalrowandcolumnpairs.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.Leetcode1657IfTwoStringAreEqual.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "MergeSort",
+			"request": "launch",
+			"mainClass": "Sorting.MergeSort",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "NewQuestion",
+			"request": "launch",
+			"mainClass": "OddOccurrencesInArray.NewQuestion",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "NumberSolitaire.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "MaxNonoverlappingSegments.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "MinMaxDivision.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Ladder.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "AllPrime.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Chocolate.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "SemiPrimes.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "NonDivisor.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Peak.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Debug (Launch) - Current File",
+			"request": "launch",
+			"mainClass": "${file}"
+		},
+		{
+			"type": "java",
+			"name": "Debug (Launch)-Solution",
+			"request": "launch",
+			"mainClass": "Fish.Solution"
+		}
+	]
 }
