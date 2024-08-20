@@ -8,6 +8,13 @@
 			"type": "java",
 			"name": "Solution",
 			"request": "launch",
+			"mainClass": "Leetcode.BFS.NearestExit.Solution",
+			"projectName": "ProgrammingQuestions_7af0cb7"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
 			"mainClass": "Solution",
 			"projectName": "ProgrammingQuestions_7af0cb7"
 		},
