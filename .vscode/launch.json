@@ -9,6 +9,20 @@
 			"name": "Solution",
 			"request": "launch",
 			"mainClass": "Leetcode.BFS.NearestExit.Solution",
+			"projectName": "ProgrammingQuestions_693eef9b"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.AsteroidCollision.Solution",
+			"projectName": "ProgrammingQuestions_693eef9b"
+		},
+		{
+			"type": "java",
+			"name": "Solution",
+			"request": "launch",
+			"mainClass": "Leetcode.BFS.NearestExit.Solution",
 			"projectName": "ProgrammingQuestions_7af0cb7"
 		},
 		{
