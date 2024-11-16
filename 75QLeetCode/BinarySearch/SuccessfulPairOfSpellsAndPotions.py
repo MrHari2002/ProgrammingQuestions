@@ -8,6 +8,9 @@ class Solution:
         result = []
         for a in spells:
             lenSorted = len(sorted_potions)
-            startingIndex = bisect_left(sorted_potions, (success + a -1 ) )
+            startingIndex = bisect_left(sorted_potions, (success + a -1 ) // a)
             result.append(lenSorted - startingIndex)
         return result
+    
+solution = Solution()
+print(solution.successfulPairs([5,1,3],[1,2,3,4,5],7))
